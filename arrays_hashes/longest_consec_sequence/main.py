@@ -11,6 +11,5 @@ class Solution:
                 if length_set > longest_val:
                     longest_val = length_set
         return longest_val
-
 s = Solution()
 print(s.longestConsecutive([100,4,200,1,3,2]))
